@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{  margin: 0;
+            padding: 0;
+            font-family:"Kreon", serif;
+            font-optical-sizing: auto;
+            font-weight:weight;
+            font-style:normal;
+        }
+        .Number{width: 300px;
+          height: 300px;
+          color: black;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-transform: uppercase;
+          justify-content: center;
+        }
+        header{background-color: brown;
+                color: floralwhite;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 20px 0px 20px;
+                height: 60px;}
+        .blog{margin :2px;
+            float:left ;
+            text-size-adjust: small;
+
+        }
+        .story{padding-top: 20px;
+                font-size: 15px;}
+        .image{background-image: url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height: 100vh;
+        width: 100%;
+        background-size:cover
+        background-repeat:no-repeat;
+        }
+        .imagtext{padding-top: 80px;
+        color: floralwhite;
+        font-size: 25px;
+        padding-left: 95px;}
+        .outdoors{
+            text-align: center;
+        }
+        .Local {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px;
+        width: 800px;
+        height: 600px;
+        margin: 10px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+      }
+        .Locals{
+            display: flex;
+            margin-left: 20px;
+        }
+        .works{display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;}
+        .work{padding: 60px;}
+        .image2{background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTc4Z9M5P43EU-t5Me-SH9yCrrCyoX_w_41EfV7o8a69zneOB_Y);
+        height: 100vh;
+        width: 100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        }
+        .imagtext2{padding-top: 80px;
+        color: floralwhite;
+        font-size: 25px;
+        padding-left: 95px;}
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: black;
+        color: floralwhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        height: 60px;
+      "
+    >
+      <span
+        style="
+          background-color: brown;
+          color: floralwhite;
+          border-radius: 5px;
+          font-size: 22px;
+        "
+      >
+        Announcement
+      </span>
+      <h3>How we're responding to COVID-19</h3>
+    </div>
+    <header>
+      <h1 class="logo">Acme</h1>
+      <nav>
+        <ul style="list-style: none; display: flex; column-gap: 50px">
+          <li>
+            <a href="index.html" style="text-decoration: none; color: white"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="About.html" style="text-decoration: none; color: white"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="Shop.html" style="text-decoration: none; color: white"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a href="Donate.html" style="text-decoration: none; color: white"
+              >Donate</a
+            >
+          </li>
+          <li>
+            <a href="Contact.html" style="text-decoration: none; color: white"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="image">
+      <div class="imagtext">
+        <h1>
+          Your Adventure <br />
+          Awaits.
+        </h1>
+        <p style="margin-bottom: 20px">
+          Acme Outdoors has everything you need to<br />help you get started
+          today. Check out our<br />wonderful collection of gear that will make
+          your <br />next adventure complete.
+        </p>
+        <span
+          class="margin-span"
+          style="
+            border: 1px solid white;
+            margin-top: 5px;
+            border-radius: 5px;
+            font-size: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+          "
+        >
+          Shop Merch
+        </span>
+      </div>
+    </div>
+    <div class="outdoors">
+      <p>WHY ACME OUTDOORS?</p>
+      <h2 style="font-size: 40px">We’re the best in the business.</h2>
+      <p style="font-size: 18px">
+        <br />
+        From more than 30 years, we’ve been leading the way across Oklahoma —<br />creating
+        the best possible customer experience since 1989.
+      </p>
+    </div>
+    <div class="clearfix">
+      <div class="blog">
+        <div class="Number" id="Number-1">
+          <div>
+            <img
+              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84b9ccd071025d67c7e431_verified.svg"
+              alt=""
+              width="60px"
+              height="50px"
+            />
+          </div>
+          <h4 class="one">Lifetime Warranty</h4>
+          <p>
+            All our products — whether we make them or not — are backed by our
+            lifetime warranty.
+          </p>
+        </div>
+      </div>
+      <div class="blog">
+        <div class="Number" id="Number-2">
+          <div>
+            <img
+              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba18359d4c7fc8ba04d2_cart.svg"
+              alt=""
+              width="60px"
+              height="50px"
+            />
+          </div>
+          <h4 class="one">Shopping Experience</h4>
+          <p class="story">
+            All our products — whether we <br />make them or not — are backed<br />by
+            our lifetime warranty.
+          </p>
+        </div>
+      </div>
+      <div class="blog">
+        <div class="Number" id="Number-3">
+          <div>
+            <img
+              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba26d07102b2bcc7e4fb_transport.svg"
+              alt=""
+              width="60px"
+              height="50px"
+            />
+          </div>
+          <h4 class="one">On-time Delivery</h4>
+          <p class="story">
+            All our products — whether we<br />make them or not — are backed<br />by
+            our lifetime warranty.
+          </p>
+        </div>
+      </div>
+      <div class="blog">
+        <div class="Number" id="Number-4">
+          <div>
+            <img
+              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba313e8232516a7da902_chat-alt.svg"
+              alt=""
+              width="60px"
+              height="50px"
+            />
+          </div>
+          <h4 class="one">Best in Class Service</h4>
+          <p class="story">
+            All our products — whether we<br />make them or not — are backed<br />by
+            our lifetime warranty.
+          </p>
+        </div>
+      </div>
+      <div style="clear: both">
+        <div class="Locals">
+          <div class="lc">
+            <img
+              height="500px"
+              width="450px"
+              src="https://images.unsplash.com/photo-1540076156429-35ffe82b7870?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvdXBsZSUyMGluJTIwbG92ZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="Local">
+            <h1>Meet the Owners.</h1>
+            <p>
+              John and Jane met on a backpacking adventure in Nepal. John, a<br />
+              former sheep shearer, went on the trip to get some clarity about
+              his <br />
+              next adventures in life. Jane — a Peloton instructor — went on the
+              <br />
+              trip to explore the landscape in Nepal.
+              <br />
+              While on the trip, John and Jane realized that they had one
+              common<br />
+              love — the love for hiking and the love for being outdoors.
+              Returning back to their home state of Oklahoma, John and Jane
+              <br />hatched a plan to launch a retail store centered around
+              their<br />passions. While John handled the sourcing of goods and
+              customer service, Jane<b
+                >focused on the web + e-commerce side of the business, building
+                this</b
+              >website in the best design platform on the web — Webflow! In
+              1989, John and Jane Doe officially launched Acme Outdoors, the<br />premiere
+              store for outdoor enthusiasts around the state. To this day, John
+              and Jane return to Nepal yearly to ensure that<br />they never
+              forget their roots and where they came from. ------- <br />
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="works">
+            <div class="work">
+                <div>
+                    <img
+                    height="300px"
+                    width="200px"
+                    src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84d114eef39554b0e943d8_John%20Doe.png"
+                    alt=""
+                    />
+                </div>
+                <div>
+                    <h4>John Doe</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Suspendisse
+                    varius enim in eros elementum <br>tristique. Duis cursus, mi quis viverra
+                    ornare, <br> eros dolor interdum nulla, ut commodo diam libero vitae <br>erat.
+                    Aenean faucibus nibh et justo cursus id rutrum <br>lorem imperdiet. Nunc
+                    ut sem vitae risus tristique <br> posuere.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <div>
+                    <img
+                    height="300px"
+                    width="200px"
+                    src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84d11d180ebb04f6b16bd9_Jane%20Doe.png"
+                    alt=""
+                    />
+                </div>
+                <div> <h4>Jane Doe</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Suspendisse
+                        varius enim in eros elementum <br>tristique. Duis cursus, mi quis viverra
+                        ornare, <br> eros dolor interdum nulla, ut commodo diam libero vitae <br>erat.
+                        Aenean faucibus nibh et justo cursus id rutrum <br>lorem imperdiet. Nunc
+                        ut sem vitae risus tristique <br> posuere.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="image2">
+            <div class="imagtext2">
+              <h1>
+                Need Help?
+              </h1>
+              <p style="margin-bottom: 20px">
+                Need help or assistance? Our team is standing<br />by to make sure you get the help you need.
+                <br />Whether you need to adjust an order or <br />delivery details, we're ready to help!
+              </p>
+              <span
+                class="margin-span"
+                style="
+                  border: 1px solid white;
+                  margin-top: 5px;
+                  border-radius: 5px;
+                  font-size: 18px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                "
+              >
+                Contact Support
+              </span>
+            </div>  
+    </div>
+  </body>
+</html>
